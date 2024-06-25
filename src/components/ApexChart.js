@@ -102,7 +102,7 @@ const ApexChart = () => {
       xaxis: [
         {
           x: new Date('2022-09-30').getTime(),
-          borderColor: '#FF4560', // 이 색깔로 통일하자!
+          borderColor: '#FF4560',
           label: {
             borderColor: '#FF4560',
             style: {

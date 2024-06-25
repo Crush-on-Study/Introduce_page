@@ -1,0 +1,68 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-progress-bar {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 30px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #61dafb;
+  transition: width 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  margin-top: 20px;
+  font-size: 1em;
+  color: var(--text-color); /* 변경된 부분 */
+}
+
+.author {
+  font-size: 0.8em;
+  color: #bd3030;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.light .quote {
+  color: #333;
+}
+
+.dark .quote {
+  color: #fff;
+}

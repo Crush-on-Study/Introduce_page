@@ -1,0 +1,112 @@
+/* 차트 컨테이너 스타일 */
+#chart {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* 차트 제목 스타일 */
+.chart-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+
+/* 다크모드 스타일 */
+.dark #chart {
+    background-color: #333333;
+}
+
+/* 라이트모드 스타일 */
+.light #chart {
+    background-color: #ffffff;
+}
+
+/* 툴팁 스타일 */
+.apexcharts-tooltip {
+    background-color: var(--tooltip-bg-color) !important;
+    color: var(--tooltip-text-color) !important;
+    border: 1px solid var(--tooltip-border-color) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* 툴팁 다크모드 스타일 */
+.dark .apexcharts-tooltip {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    border: 1px solid #555555 !important;
+}
+
+/* 툴팁 라이트모드 스타일 */
+.light .apexcharts-tooltip {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #cccccc !important;
+}
+
+/* 데이터 라벨 스타일 */
+.apexcharts-data-label {
+    color: var(--text-color) !important;
+    font-size: 12px !important;
+    margin: 0 5px;
+}
+
+/* 데이터 라벨 다크모드 스타일 */
+.dark .apexcharts-data-label {
+    color: #ffffff !important;
+}
+
+/* 데이터 라벨 라이트모드 스타일 */
+.light .apexcharts-data-label {
+    color: #000000 !important;
+}
+
+/* X축, Y축 라벨 스타일 */
+.apexcharts-xaxis-label, .apexcharts-yaxis-label {
+    color: var(--text-color) !important;
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+    margin: 5px;
+}
+
+/* 툴팁 내부 마커 스타일 */
+.apexcharts-tooltip-marker {
+    margin-right: 5px !important;
+}
+
+/* 툴팁 시리즈 그룹 스타일 */
+.apexcharts-tooltip-series-group {
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 5px !important;
+}
+
+/* 차트 데이터 포인트 스타일 */
+.apexcharts-bar-area {
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+/* 범례 스타일 */
+.apexcharts-legend {
+    color: var(--text-color);
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* X축, Y축 라벨 다크모드 스타일 */
+.dark .apexcharts-xaxis-label, .dark .apexcharts-yaxis-label {
+    color: #e7b2b2 !important;
+}
+
+/* X축, Y축 라벨 라이트모드 스타일 */
+.light .apexcharts-xaxis-label, .light .apexcharts-yaxis-label {
+    color: #000000 !important;
+}

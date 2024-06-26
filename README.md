@@ -54,6 +54,25 @@ my-app/
 ├── .gitignore                
 ├── package.json              
 └── README.md                 # 프로젝트 설명 파일 (바로 여기!)
-
+```
 
 ## 페이지 구조
+![main](https://github.com/Crush-on-Study/Introduce_page/assets/99119068/1cebb9c3-249e-4502-b51b-cf253e4340f0)
+
+### Header Image, Footer Image
+- 페이지 자체가 심심해서 이쁜 배경 사진 넣으려 했습니다.<br>테마에 따라 (다크/라이트) 바뀌도록 할건데 지금은 Header Image만 구현했습니다! (이미지 노가다의 길..)</br>
+
+### My Photo
+- 헤헿.. 잘나지않은 제 얼굴입니다 :sunglasses:
+
+### Theme
+- 클릭하면 다크모드, 라이트모드로 취향에 따라 바뀌도록 했습니다.
+
+### Education/Job Experience/Certificate
+- 학교를 포함한 교육 이수 사항, 경력 사항, 자격증 취득 사항을 넣었습니다.
+
+### TimeLine Chart
+- 처음에는 리액트구글차트를 사용했는데 ApexChart 라이브러리에 더 이쁜게 많아서 현재는 Apex에서 Multi Layer 사용 중입니다.
+
+### PJT1,PJT2,PJT3
+- 프로젝트 OVERVIEW구요. 상세 설명 페이지로 넘어가도록 기능 구현 예정입니다. 아직은 깃허브로만 연결하도록 해놨습니다.

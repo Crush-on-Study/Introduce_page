@@ -77,7 +77,7 @@ my-app/
 
 ## 실제 실행 화면
 |![로딩화면](https://github.com/Crush-on-Study/Introduce_page/assets/99119068/ea1972bc-d9cc-4f8f-a607-8288c0f2011b)|![메인화면1](https://github.com/Crush-on-Study/Introduce_page/assets/99119068/9ab4f651-95d9-47aa-9374-e0830683ec5e)|![메인화면2](https://github.com/Crush-on-Study/Introduce_page/assets/99119068/23caf1e9-a34b-466d-9161-f516a0076ac6)|
-|------|---|---|
-|:로딩화면:|:메인화면1:|:메인화면2:|
+|:-----:|:-----:|:-----:|
+|로딩화면|메인화면1|메인화면2|
 ### PJT1,PJT2,PJT3
 - 프로젝트 OVERVIEW구요. 상세 설명 페이지로 넘어가도록 기능 구현 예정입니다. 아직은 깃허브로만 연결하도록 해놨습니다.

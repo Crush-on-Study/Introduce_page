@@ -15,8 +15,8 @@ const Categories = () => {
       <div className="category">
         <h2>경력사항</h2>
         <ul>
-          <li>2023.07.01 ~ ing | KETI 데이터 분석 & SW QA</li>
-          <li>2021.10.25 ~ 2022.06.15 | 온세미컨덕터코리아 반도체 Test Engineer</li>
+          <li>2023.07.01 ~ ing | 회사2 데이터 분석 & SW QA</li>
+          <li>2021.10.25 ~ 2022.06.15 | 회사1 Test Engineer</li>
         </ul>
       </div>
       <div className="category">

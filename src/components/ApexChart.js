@@ -3,6 +3,7 @@ import ReactApexChart from 'react-apexcharts';
 import { useTheme } from '../contexts/ThemeContext';
 import { ReactTyped as Typed } from 'react-typed';
 import './ApexChart.css';
+import medal from '../assets/medal.png';
 
 const ApexChart = () => {
   const { theme } = useTheme();
@@ -104,6 +105,7 @@ const ApexChart = () => {
           x: new Date('2022-09-30').getTime(),
           borderColor: '#FF4560',
           label: {
+            Image: medal,
             borderColor: '#FF4560',
             style: {
               color: '#fff',
@@ -159,14 +161,14 @@ const ApexChart = () => {
       name: 'Career',
       data: [
         {
-          x: 'ON Semiconductor',
+          x: '회사1',
           y: [
             new Date('2021-10-25').getTime(),
             new Date('2022-05-15').getTime()
           ]
         },
         {
-          x: 'KETI',
+          x: '회사2',
           y: [
             new Date('2023-07-01').getTime(),
             new Date() // 현재 진행형

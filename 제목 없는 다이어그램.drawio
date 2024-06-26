@@ -1,11 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T00:43:40.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="oEemO9NZGyUa445n_KvR" version="24.6.3" type="github">
-  <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
-    <mxGraphModel dx="969" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
-      <root>
-        <mxCell id="14" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonal=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="2" value="Loading Screen" style="shape=rect;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="100" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="3" value="Main Screen" style="shape=rect;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="250" y="100" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="About Me Detail" style="shape=rect;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="400" y="50" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="Project Detail 1" style="shape=rect;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="400" y="150" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" value="Project Detail 2" style="shape=rect;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="550" y="50" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="7" value="Project Detail 3" style="shape=rect;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="550" y="150" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="Project Detail 4" style="shape=rect;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="700" y="100" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" edge="1" source="2" target="3" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonal=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="10" edge="1" source="3" target="4" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonal=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="11" edge="1" source="3" target="5" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonal=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="12" edge="1" source="5" target="6" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonal=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="13" edge="1" source="5" target="7" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonal=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="14" edge="1" source="7" target="8" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonal=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

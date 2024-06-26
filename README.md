@@ -1,6 +1,15 @@
-# 프로젝트 구조
+## 왜 만들었는가? 
 
-다음은 프로젝트의 디렉토리 구조와 각 디렉토리 및 파일에 대한 설명입니다:
+- 깃허브, 노션.. 아무리 보여드려도 이제 다들 필수로 관리해서 그런가.. 색다른 임팩트가 필요하다 생각해서 만들었습니다 :sob: <br>(다들 천천히 좀 성장해주세요.. :satisfied:)</br>
+- 사실 위에는 제 속마음이고, 평소에 노션같이 개인적인 온라인 공간을 꾸미는 것에 굉장히 흥미가 큽니다.<br>특히 네이버 블로그는 6년 동안 운영 해왔고 인플루언서로도 활동 중입니다.<br>만약 개인 웹페이지도 한번 만들어보면 잘 꾸밀것 같아 해봤습니다!</br>
+
+## 사용 기술 스택
+
+- <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
+
+## 프로젝트 구조
+
+- 다음은 프로젝트의 디렉토리 구조와 각 디렉토리 및 파일에 대한 설명입니다:
 
 ```plaintext
 my-app/                       
@@ -45,3 +54,6 @@ my-app/
 ├── .gitignore                
 ├── package.json              
 └── README.md                 # 프로젝트 설명 파일 (바로 여기!)
+
+
+## 페이지 구조

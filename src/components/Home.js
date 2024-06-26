@@ -23,7 +23,7 @@ const Home = () => {
       <Fade>
         <Typed
           className="intro-text"
-          strings={['안녕하세요! 고객의 입장에서 불편함을 찾는 SW QA, 강현빈입니다']}
+          strings={['안녕하세요! 고객의 입장에서 불편함을 찾는 SW기술자, ooo입니다']}
           typeSpeed={40}
           backSpeed={50}
           loop={false}

@@ -21,6 +21,13 @@ my-app/
 │   ├── medal.png             
 │   └── ...                   # 기타 정적 파일들~~! 이미지 구글링하느라 힘들었다...
 ├── src/                      # 소스 코드가 위치하는 디렉토리
+ |    ├── tests/  # 테스트코드 담아둔 곳
+│   │   ├── ApexChart.test.js
+│   │   ├── Categories.test.js
+│   │   ├── CircularProgressBar.test.js
+│   │   ├── LoadingProgressBar.test.js
+│   │   ├── ThemeSwitcher.test.js
+│   │   ├── ... (other test files)
 │   ├── assets/               # (이미지, 아이콘 등)
 │   │   ├── cpp.png           
 │   │   ├── python.png        
@@ -49,6 +56,7 @@ my-app/
 │   ├── data/                 # 프로젝트 오버뷰 (메인화면에서의 프로젝트들 간략 소개)
 │   │   └── projects.js       
 │   ├── App.js                # 메인 앱 컴포넌트
+│   ├── App.test.js           # 메인 앱 컴포넌트 테스트코드
 │   ├── App.css               
 │   └── index.js              # 엔트리 포인트 파일
 ├── .gitignore                
